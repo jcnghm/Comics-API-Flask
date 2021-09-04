@@ -1,0 +1,162 @@
+<!-- Landing Page -->
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!--Flask Flashed Messages to User-->
+<div class="container">
+    {% with messages = get_flashed_messages(with_categories = true) %}
+        {% if messages %}
+            {% for cat,msg in messages %}
+                {% if cat == 'user-created'%}
+                    <div class="alert alert-success">
+                        {{ msg }}
+                        <button type="button" class="close" data-dismiss = "alert">&times;</button>
+                    </div>
+                {% elif cat == 'auth-success' %}
+                    <div class="alert alert-success">
+                        {{ msg }}
+                        <button type="button" class="close" data-dismiss = "alert">&times;</button>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+</div>
+
+<div class="container">
+    <!-- Header Section -->
+    <header class="row">
+        <div class="col-12 col-md-6" id="header-text">
+            <h2>DC Hero Universe API</h2>
+            <br>
+            <h5>Create Awesome Stuff With The World's Greatest DC Comics API</h5>
+            <br>
+            <p>The DC Comics API allows developers everywhere to access information about DC's vast library of comics - 
+                from what's coming up, to 100 years ago.
+            </p>
+            <br>
+            <div>
+                <a href="{{ url_for('site.heroes') }}"><button class="btn btn-primary">Heroes</button></a>
+                <button class="btn btn-primary">Join Our Discord</button>
+            </div>
+            <br>
+        </div>
+        <!-- Header Image -->
+        <div class="col-12 col-md-6">
+            <img src="../../static/images/justice-league.jpg" alt="Offroad Logo" class="header-image">
+        </div>
+    </header>
+    <!-- End of Header Section -->
+
+<hr class='1'>
+
+    <!-- Obscure Section -->
+    <section class="row">
+        <div class="col-12 col-md-6" id="obscure-img">
+            <img src="../../static/images/obscure DC Heroes.jpg" alt="Obscure Heroes Image" class="header-image">
+        </div>
+        <div class="col-12 col-md-6">
+            <h4>Full API Documentation Kit For Full Testing</h4>
+            <br>
+            <p>
+                We have extensive API documentation to follow defining the rules of 
+                the DC Comics API.  Including all aspects of even the most obscure
+                HEROES and VILLIANS.
+            </p>
+            <div>
+                <button class="btn btn-primary">View Documentation</button>
+                <button class="btn btn-primary">Get a Key</button>
+            </div>
+        </div>
+    </section>
+
+
+<hr>
+    <!-- Collection of Heroes Section -->
+    <section class="row" id="features-section">
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/batman.jpg" alt="batman" id="batman-img">
+            <h4>Batman</h4>
+            <p>Batman is the superhero protector of Gotham City, a tortured, brooding vigilante dressed as a bat who fights against evil and strikes fear into the hearts 
+                of criminals everywhere. In his public identity he is Bruce Wayne, billionaire industrialist and notorious playboy.</p>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/superman.png" alt="superman" id="superman-img">
+            <h4>Superman</h4>
+            <p>From his blue uniform to his flowing red cape to the "S" shield on his chest, Superman is one of the most immediately recognizable and beloved DC Super Heroes of all time. 
+                The Man of Steel is the ultimate symbol of truth, justice, and hope. He is the world's first Super Hero and a guiding light to all.</p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/wonder-woman.jpg" alt="wonder woman" id="wonder-woman-img">
+            <h4>Wonder Woman</h4>
+            <p>Beautiful as Aphrodite, wise as Athena, swifter than Hermes, and stronger than Hercules, Princess Diana of Themyscira fights for peace in Man's World.</p>
+        </div>
+    </section>
+    <!-- End Collection of Heroes Section -->
+<hr>
+<section class="row">
+    <div class="col-12 col-md-6">
+        <img src="../../static/images/Green-Arrow-and-Batman.jpg" alt="Batman and Green Arrow" class="header-image">
+    </div>
+    <div class="col-12 col-md-6" id="header-text">
+        <h2>Heroes of the League of Shadows</h2>
+        <br>
+        <p><i>"Crime. Despair. This is not how man was supposed to live. The League of Shadows has been a check against human corruption...
+            for thousands of years. We sacked Rome. Loaded trade ships with plague rats. Burned London to the ground. Every time a civilization reaches the 
+            pinnacle of its decadence...we return to restore the balance."</i></p>
+            ―Ra's al Ghul
+        </h6>
+        <br>
+        <br>
+            <a href="{{ url_for('site.heroes') }}"><button class="btn btn-primary">More Heroes</button></a>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Follow DC Comics</h2>
+                <br>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Start of Footer Section -->
+    <footer class="row" id="footer">
+        <div class="col-3 col-md-3">
+            <img src="../../static/images/DC3.png" alt="DC Logo" id="footer-logo">
+        </div>
+
+        <div class="col-3 col-md-3">
+            <div class="footer-text-flex">
+                <h5>ABOUT DC</h5>
+                <h5>HELP/FAQS</h5>
+                <h5>CAREERS</h5>
+                <h5>INTERNSHIPS</h5>             
+            </div>
+        </div>
+        <div class="col-3 col-md-3">
+            <div class="footer-text-flex">
+                <h5>ADVERTISING</h5>
+                <h5>DCCOMICS.COM</h5>
+                <h5>REDEEM DIGITAL COMICS</h5>
+                <h5>DC COMICS INSIDER</h5>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer Section -->
+</div>
+
+{% endblock content %}

@@ -1,0 +1,204 @@
+
+
+/* Nav Styles */
+
+.name {
+    font-size: 200%;
+}
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+
+/* End of Nav Styles */
+
+
+/*  HR LINES FORMATTING */
+hr {
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/* Start of Hero/Header Section Styles*/
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-primary {
+    background-color: #0077F6;
+
+}
+
+.btn-primary:hover{
+    background-color: #12459E;
+    border-color: #12459E;
+}
+
+
+/* End of Hero/Header Section Styles*/
+
+
+/* Start of Middle Section Styles*/
+#middle-text{
+    text-align: center;
+    padding: 13vh;
+    margin-top: 30vw;
+}
+
+#middle-text h2{
+    padding:1.5vw;
+}
+/* End of Middle Section Styles*/
+
+
+/* Start of Heros Section Styles */
+#batman-img,#superman-img,#wonder-woman-img{
+    margin-bottom:10vh;
+    border-radius: 12px;
+    margin-left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#features-section{
+    margin: 8vw;
+
+}
+
+#header-text h6{
+    font-style: italic;
+}
+
+#features-section h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* End of Heroes Section Styles */
+
+/* Start of the Obscure Heroes Section */
+
+.row h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* Start of Footer Section Styles */
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    justify-content: space-between;
+
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top: 20vh;
+}
+
+#footer h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* End of Footer Section Styles */
+
+
+
+/* Profile Styles Section */
+
+.hero-section{
+    height: 95vh;
+    background-image:linear-gradient(to right bottom, rgba(30,115,172,0.7), rgba(55, 50, 56, 0.6)), url(../images/profile-background.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}
+
+
+/* Follow DC Comics Social Icons Styling*/
+
+.social a {
+    font-size: 2.5em;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-snapchat {
+    color: #FFFC00;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-snapchat:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
+
+.col-12 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Hero Page Styling */
+
+.hero-list {
+    display: flex;
+    align-content: center;
+    padding-left: 50px;
+    width: 80%;
+}
+
+
+

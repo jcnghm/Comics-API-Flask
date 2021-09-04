@@ -1,0 +1,1 @@
+web: gunicorn comic_book:app --preload --timeout 60
