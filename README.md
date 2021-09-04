@@ -1,17 +1,18 @@
 # DC Comic Book Heroes API Poject
 
-![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example1.PNG)
-
-# Fully Responsive for Mobile Devices
-
-![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example1.PNG)
-
-
 # Features
     - Fully Functional DC Hero Database API!
     - Create Awesome Stuff with the DC Comics API
     - Deployed on Heroku
     - Update with your Heroku-url
+
+![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example1.PNG)
+
+# Fully Responsive for Mobile Devices
+
+![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example2.PNG)
+
+# Built with Bootstrap5
 
 ![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example3.PNG)
 
