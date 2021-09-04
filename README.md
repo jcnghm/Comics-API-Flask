@@ -1,8 +1,8 @@
 # DC Comic Book Heroes API Poject
 
 # Features
-    - Fully Functional DC Hero Database API!
-    - Create Awesome Stuff with the DC Comics API
+    - Fully Functional Database API!
+    - This sample template can be used in a variety of applications.
     - Deployed on Heroku
     - Update with your Heroku-url
 
@@ -12,13 +12,15 @@
 
 ![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example2.PNG)
 
-# Built with Bootstrap5
-
-![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example3.PNG)
-
 # Running on local machine
     - To get all dependencies installed:
         - Clone the Repository
         - Run 'pip install -r requirements.txt'
+
+
+# Built with Bootstrap5
+
+![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example3.PNG)
+
 
 ![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example4.PNG)
