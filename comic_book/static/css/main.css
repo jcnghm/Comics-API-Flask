@@ -135,7 +135,7 @@ hr {
     height: 95vh;
     background-image:linear-gradient(to right bottom, rgba(30,115,172,0.7), rgba(55, 50, 56, 0.6)), url(../images/profile-background.jpg);
     background-size: cover;
-    background-position: 35% 50%;
+    background-attachment: fixed;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     position: relative;
@@ -198,7 +198,17 @@ hr {
     align-content: center;
     padding-left: 50px;
     width: 80%;
+    min-width: 100%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
 
 
