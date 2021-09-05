@@ -22,6 +22,6 @@
 
 ![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example3.PNG)
 
-![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example5.PNG)
+![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example6.PNG)
 
 ![Site Image Example](https://github.com/jcnghm/API_template_comics/blob/master/comic_book/static/images/example4.PNG)
